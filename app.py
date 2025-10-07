@@ -1,4 +1,4 @@
-""""""
+"""
 ASISTENTE TÉCNICO SATGARDEN V2.13
 Implementación completa de todas las funcionalidades:
 - FIX: Ocultada la barra lateral en la página principal (Hub) para una interfaz más limpia.
@@ -64,7 +64,7 @@ def load_css():
 
         /* --- Hub Page Specific Styles --- */
         .stButton > button {
-            all: unset; /* Reset Streamlit's default button styles */
+            all: unset;
             display: flex;
             flex-direction: column;
             align-items: center;
